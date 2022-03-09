@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'volkhov';
+    src: url('Polices/volkhov-regular.woff');
+    src: url('Polices/volkhov-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('Polices/poppins-regular.woff');
+    src: url('Polices/poppins-regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('Polices/OpenSans-Regular.woff');
+    src: url('Polices/OpenSans-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
