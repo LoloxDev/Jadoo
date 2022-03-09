@@ -50,30 +50,79 @@ nav a{
 
 .welcome{
     background-image: url(images/illustration_principale.jpg);
-    background-size : 100% 100%;
+    background-size : cover;
     width:100%;
     height:800px;
     object-fit: cover;
+    padding:100px;
 }
 
 h3{
-    color:salmon;
+    color:rgb(223, 102, 89);
     font-size: 1.5em;
+    font-family: "poppins";
+    margin-bottom: 50px;
 }
 
-h1{
+.welcome h1{
     color:white;
-    font-size: 3.5em;
+    font-size: 5.4em;
     font-family: "volkhov";
 }
 
 p{
-    color:white;
+    color:silver;
+    font-family: 'poppins';
+    line-height: 30px;
+    margin-top:30px;
 }
 
 .test{
-    padding: 100px;
-    text-align: justify;
-    padding-right: 500px;
-    
+    max-width: 565px;
+
+}
+
+.button{
+    background-color: #f1a501;
+    height:50px;
+    font-family:'OpenSans';
+    position:relative;
+    top:20px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.button span{
+    padding:0 30px;
+    color:white;
+    font-weight: bold;
+    font-size:1.2em;
+}
+
+.test > img {
+    position:relative;
+    bottom:30px;
+}
+
+.new{
+padding: 100px 10% 100px 10%;
+background: url("Images/decor_1.svg") no-repeat;
+background-position: top right;
+}
+
+.new h2{
+    font-family: "poppins";
+    text-align: center;
+    color:grey;
+    font-size: 1em;
+}
+
+.new h1{
+    text-align: center;
+    margin-top: 20px;
+    font: 3em "volkhov" ;
+}
+
+figcaption{
+    font-family: "poppins" ;
 }
