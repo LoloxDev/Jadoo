@@ -1,0 +1,47 @@
+nav{
+    display:grid;
+    grid-template-columns: 10% 50px 10% 40% 100px 100px 100px 100px auto;
+    grid-template-areas: ". logo logo2 . nouv dec comm cont .";
+    grid-template-rows: 50px;
+}
+
+#logo{
+    grid-area: logo;
+    padding:8px;
+}
+
+.Jadoo{
+    grid-area: logo2;
+    line-height: 0px;
+}
+
+.Nouv{
+    grid-area: nouv;
+}
+
+.Dec{
+    grid-area: dec;
+}
+
+.Comm{
+    grid-area: comm;
+}
+
+.Cont{
+    grid-area: cont;
+}
+
+nav a{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+    font-size: 0.85em;
+    margin:auto;
+}
+
+.welcome{
+    background-image: url(images/illustration_principale.jpg);
+    width:100%;
+    height:100%;
+    padding:auto;
+}
