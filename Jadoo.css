@@ -1,154 +1,150 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-img{
+img {
     object-fit: cover;
 }
 
-
-
-nav{
-    display:grid;
+nav {
+    display: grid;
     grid-template-columns: 10% 50px 10% 30% 110px 100px 100px 120px auto;
     grid-template-areas: ". logo logo2 . nouv dec comm cont .";
     grid-template-rows: 50px;
-    font-family: 'poppins';
-    position:sticky;
-    top:0;
+    font-family: "poppins";
+    position: sticky;
+    top: 0;
 }
 
-#logo{
+#logo {
     grid-area: logo;
-    padding:8px;
+    padding: 8px;
 }
 
-.Jadoo{
+.Jadoo {
     grid-area: logo2;
     line-height: 0px;
 }
 
-.Nouv{
+.Nouv {
     grid-area: nouv;
 }
 
-.Dec{
+.Dec {
     grid-area: dec;
 }
 
-.Comm{
+.Comm {
     grid-area: comm;
 }
 
-.Cont{
+.Cont {
     grid-area: cont;
 }
 
-nav a{
-    text-decoration:none;
-    color:black;
+nav a {
+    text-decoration: none;
+    color: black;
     font-weight: bold;
     font-size: 0.85em;
-    margin:auto;
+    margin: auto;
 }
 
-.welcome{
+.welcome {
     background-image: url(images/illustration_principale.jpg);
-    background-size : cover;
-    width:100%;
-    height:800px;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
     object-fit: cover;
-    padding:100px;
+    padding: 100px;
 }
 
-h3{
-    color:rgb(223, 102, 89);
+h3 {
+    color: rgb(223, 102, 89);
     font-size: 1.5em;
     font-family: "poppins";
     margin-bottom: 50px;
 }
 
-.welcome h1{
-    color:white;
+.welcome h1 {
+    color: white;
     font-size: 5.4em;
     font-family: "volkhov";
 }
 
-p{
-    color:silver;
-    font-family: 'poppins';
+p {
+    color: silver;
+    font-family: "poppins";
     line-height: 30px;
-    margin-top:30px;
+    margin-top: 30px;
 }
 
-.test{
+.test {
     max-width: 565px;
-
 }
 
-.button{
+.button {
     background-color: #f1a501;
-    height:50px;
-    font-family:'OpenSans';
-    position:relative;
-    top:20px;
+    height: 50px;
+    font-family: "OpenSans";
+    position: relative;
+    top: 20px;
     border-radius: 10px;
     border-style: none;
 }
 
-.button span{
-    padding:0 30px;
-    color:white;
+.button span {
+    padding: 0 30px;
+    color: white;
     font-weight: bold;
-    font-size:1.2em;
+    font-size: 1.2em;
 }
 
 .test > img {
-    position:relative;
-    bottom:30px;
+    position: relative;
+    bottom: 30px;
 }
 
-.new{
-padding: 100px 10% 100px 10%;
-background: url("Images/decor_1.svg") no-repeat;
-background-position: top right;
-display: flex;
-justify-content: space-evenly;
-align-items: stretch;
-flex-wrap: wrap;
+.new {
+    padding: 100px 10% 100px 10%;
+    background: url("Images/decor_1.svg") no-repeat;
+    background-position: top right;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
 
-.new h2{
+.new h2 {
     font-family: "poppins";
     text-align: center;
-    color:grey;
+    color: grey;
     font-size: 1em;
-    width:100%;
+    width: 100%;
     flex: 1 0 100%;
 }
 
-.new h1{
+.new h1 {
     text-align: center;
     margin-top: 20px;
-    font: 3em "volkhov" ;
-    width:100%;
+    font: 3em "volkhov";
+    width: 100%;
 }
 
-figcaption{
-    font-family: "poppins" ;
+figcaption {
+    font-family: "poppins";
 }
 
-.new img{
+.new img {
     border-radius: 20px 20px 0 0;
 }
 
-.new article{
-    width:150px;
+.new article {
+    width: 150px;
 }
 
-.titlerelou{
-    width:100%
+.titlerelou {
+    width: 100%;
 }
-
