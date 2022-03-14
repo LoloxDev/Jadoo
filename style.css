@@ -116,6 +116,18 @@ p {
     max-width: 565px;
 }
 
+.traitorange{
+    background: url(images/souligne_rose.svg) no-repeat;
+    display:block;
+    background-position: bottom left;
+    line-height: 70px;
+}
+
+.chefsection h1 span{
+    background-size: 250px;
+    line-height: 40px;
+}
+
 .button {
     background-color: #f1a501;
     padding: 15px 20px;
@@ -127,8 +139,9 @@ p {
 }
 
 .button:hover {
-    transform: scale(1.1);
+    
     transition: 0.2s;
+    transform: scale(1.10);
 }
 
 .button a {
