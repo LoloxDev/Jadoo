@@ -451,6 +451,7 @@ input:focus{
     padding:10px 15px;
     background-color: #007aff;
     color:white;
+    border-radius: 5px;
 }
 
 .sendbutton img{
@@ -470,4 +471,37 @@ input:focus{
 .contactbutton:hover{
     transform: scale(1.10);
     transition:0.2s;
+}
+
+footer{
+    display: flex;
+    padding:80px 150px 30px;
+    background-color: #f3f3f3;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.footer1, .footer2, .footer3{
+    display:flex;
+}
+
+.footer1{
+    width:20%;
+    flex-wrap: wrap;
+}
+
+.footer1 img{
+    height:50px;
+    width:200px;
+}
+
+.footer1 img:first-child{
+    width:50px;
+}
+
+.footer1 img:nth-child(2){
+    width:165px;
+    height:50px;
 }
