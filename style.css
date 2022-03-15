@@ -349,3 +349,17 @@ figcaption {
     font-size: 1em;
     color: black;
 }
+
+.formulairesection{
+    padding:100px;
+}
+
+.formulaire{
+    max-width:1000px;
+    margin:auto;
+    display:flex;
+}
+
+.partieg, .partied{
+    width:50%;
+}
