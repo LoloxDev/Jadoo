@@ -7,6 +7,7 @@
 img {
     object-fit: cover;
     width: 100%;
+    height:100%;
 }
 
 nav {
@@ -356,10 +357,117 @@ figcaption {
 
 .formulaire{
     max-width:1000px;
+    width:700px;
+    height:420px;
     margin:auto;
     display:flex;
+    box-shadow: 0 0 16px #0000002e;
+    border-radius: 30px;
+    font-family: "poppins";
+    font-size: 0.7em;
+    text-align: left;
+}
+
+.formulaire .partieg h3{
+    margin:0;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+.formulaire .partieg h4{
+    margin-bottom: 20px;
+    color: #8d8d8d;
+}
+
+.partied img{
+    border-radius: 0px 20px 20px 0;
 }
 
 .partieg, .partied{
     width:50%;
+}
+
+.partieg{
+    padding:50px;
+}
+
+.formulairesection h3,.formulairesection h2{
+    text-align: center;
+}
+
+.formulairesection h2{
+    color:#5e6282;
+    font-family: "poppins";
+    font-size: 0.9em;
+}
+
+.formulairesection h3{
+    color:#14183e;
+    font-family: "volkhov";
+    font-size: 2em;
+    margin:30px auto;
+}
+
+.block{
+    display:block;
+}
+
+form div{
+    margin-bottom: 20px;
+    width:100%;
+}
+
+.nomprenom{
+    display:flex;
+    margin:0;
+}
+
+.nom, .prenom{
+    width:49%;
+}
+
+input{
+    width:100%;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid silver;
+    padding:0 0 5px;
+    outline:0;
+    font-size: 0.9em;
+}
+
+input:focus{
+    border-bottom: 1px solid #007aff;
+}
+
+.nom{
+    margin-right: 15px;
+}
+
+.sendbutton{
+    display: flex;
+    margin:0;
+    padding:10px 15px;
+    background-color: #007aff;
+    color:white;
+}
+
+.sendbutton img{
+    margin-right: 5px;
+}
+
+.contactbutton{
+    border-style: none;
+    box-shadow: none;
+    text-align: center;
+    margin: 45px 75px 10px;
+    position: center;
+    box-shadow: 0px 20px 35px 0.1px silver;
+    cursor: pointer;
+}
+
+.contactbutton:hover{
+    transform: scale(1.10);
+    transition:0.2s;
 }
