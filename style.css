@@ -475,12 +475,13 @@ input:focus{
 
 footer{
     display: flex;
-    padding:80px 10% 30px;
+    padding:50px 10% 5px;
     background-color: #f3f3f3;
     justify-content: space-around;
     flex-wrap: wrap;
     color:#5e6282;
     font-family: "poppins";
+    font-size: 0.8em;
 }
 
 ul{
@@ -490,12 +491,28 @@ ul{
 .footer1, .footer2, .footer3{
     display:flex;
     justify-content: space-between;
-    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 20px 0 20px;
-    width:310px;
+    padding: 0 30px 0px 25px;
+    width:300px;
     flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.footer1{
+    justify-content: flex-start;
+}
+
+.footer1 p{
+    margin-top: 25px;
+    line-height: 20px;
+}
+
+.footer1 img{
+width:unset;
+height: 40px;
+object-fit: unset;
+margin-right: 15px;
 }
 
 .footer2{
@@ -512,7 +529,9 @@ ul{
 }
 
 .footer2 span{
-    margin-top: 20px;;
+    margin-left: 30px;
+    font-size: 0.8em;
+    margin-top: 40px;
 }
 
 .footer2 h2{
@@ -521,34 +540,18 @@ ul{
     margin-bottom: 20px;;
 }
 
-.footer1 img{
-    height:50px;
-    width:200px;
-}
-
-.footer1 img:first-child{
-    width:50px;
-}
-
-.footer1 img:nth-child(2){
-    width:165px;
-    height:50px;
-}
-
-.footer3{
-    flex-wrap: wrap;
-    width:20%;
-}
 
 .footer3 img{
     object-fit: unset;
     width: unset;
-    height:35px;
+    height:25px;
+    line-height: 20px;
 }
 
-.footer3 h4{
+.footer3>span{
     height: 20px;
     width:100%;
+    margin: 20px 0;
 }
 
 .footer3 button{
@@ -557,10 +560,11 @@ ul{
     padding:0 20px;
     box-shadow: unset;
     border:none;
-    height:40px;
+    height:30px;
+    min-width: 110px;
 }
 
-.footer3 span{
+.footer3 button span{
     color:white;
     vertical-align: middle;
     font-size: 0.6em;
