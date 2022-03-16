@@ -107,7 +107,7 @@ button {
 }
 
 p {
-    color: silver;
+    color: #5e6282;
     font-family: "poppins";
     line-height: 30px;
     margin-top: 30px;
@@ -475,8 +475,12 @@ input:focus{
 
 footer{
     display: flex;
-    padding:80px 150px 30px;
+    padding:80px 10% 30px;
     background-color: #f3f3f3;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color:#5e6282;
+    font-family: "poppins";
 }
 
 ul{
@@ -485,11 +489,36 @@ ul{
 
 .footer1, .footer2, .footer3{
     display:flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px 0 20px;
+    width:310px;
+    flex-wrap: wrap;
 }
 
-.footer1{
-    width:20%;
-    flex-wrap: wrap;
+.footer2{
+    line-height: 25px;
+}
+
+.footer2 a{
+    text-decoration: none;
+    color:#5e6282;
+}
+
+.footer2 a:hover{
+    text-decoration: underline;
+}
+
+.footer2 span{
+    margin-top: 20px;;
+}
+
+.footer2 h2{
+    font-weight: bold;
+    color:black;
+    margin-bottom: 20px;;
 }
 
 .footer1 img{
@@ -504,4 +533,43 @@ ul{
 .footer1 img:nth-child(2){
     width:165px;
     height:50px;
+}
+
+.footer3{
+    flex-wrap: wrap;
+    width:20%;
+}
+
+.footer3 img{
+    object-fit: unset;
+    width: unset;
+    height:35px;
+}
+
+.footer3 h4{
+    height: 20px;
+    width:100%;
+}
+
+.footer3 button{
+    border-radius: 20px;
+    background-color: black;
+    padding:0 20px;
+    box-shadow: unset;
+    border:none;
+    height:40px;
+}
+
+.footer3 span{
+    color:white;
+    vertical-align: middle;
+    font-size: 0.6em;
+}
+
+.footer3 button img{
+    vertical-align: middle;
+    height:unset;
+    width: 13px;
+    height:20px;
+    margin-right: 5px;
 }
