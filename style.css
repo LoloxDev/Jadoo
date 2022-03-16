@@ -41,14 +41,6 @@ nav {
     60% {
         transform: rotate(5deg);
     }
-
-    80% {
-        transform: rotate(-5deg);
-    }
-
-    to {
-        transform: rotate(0deg);
-    }
 }
 
 .Jadoo {
@@ -84,16 +76,16 @@ nav a {
     background-image: url(images/illustration_principale.jpg);
     background-size: cover;
     width: 100%;
-    height: 800px;
+    height: 650px;
     object-fit: cover;
     padding: 100px;
 }
 
 h3 {
     color: rgb(223, 102, 89);
-    font-size: 1.5em;
+    font-size: 1em;
     font-family: "poppins";
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 button {
@@ -102,15 +94,17 @@ button {
 
 .welcome h1 {
     color: white;
-    font-size: 5.4em;
+    font-size: 4em;
     font-family: "volkhov";
 }
 
 p {
-    color: #5e6282;
+    color: #bfc0cd;
     font-family: "poppins";
-    line-height: 30px;
+    line-height: 25px;
+    margin-right: 170px;
     margin-top: 30px;
+    font-size: 0.8em;
 }
 
 .test {
@@ -135,7 +129,7 @@ p {
     font-family: "OpenSans";
     border-radius: 10px;
     border-style: none;
-    margin-top: 60px;
+    margin-top: 50px;
     cursor: pointer;
 }
 
@@ -157,9 +151,10 @@ p {
 }
 
 .new {
-    padding: 150px 10% 150px 10%;
-    background: url("Images/decor_1.svg") no-repeat;
-    background-position: top right;
+    padding: 100px 10%;
+    background: url("images/decor_1.svg") no-repeat, url("images/decoration_filet.svg") no-repeat;
+    background-position-x:98%, 81%;
+    background-position-y:2%, 32%;
     text-align: center;
 }
 
@@ -167,15 +162,15 @@ p {
     font-family: "poppins";
     text-align: center;
     color: grey;
-    font-size: 1.2em;
+    font-size: 0.9em;
     width: 100%;
     flex: 1 0 100%;
 }
 
 .new h1 {
     text-align: center;
-    margin: 20px 0 50px 0;
-    font: 3em "volkhov";
+    margin: 10px 0 50px 0;
+    font: 2.5em "volkhov";
     width: 100%;
     font-weight: bold;
 }
@@ -183,6 +178,10 @@ p {
 figcaption {
     font-family: "poppins";
     border-radius: 0 0 20px 20px;
+}
+
+.testcard{
+    position:relative;
 }
 
 .new article {
@@ -194,7 +193,7 @@ figcaption {
 }
 
 .card1 {
-    box-shadow: 0 0 16px #0000002e;
+    box-shadow: 0 10px 35px 1px #8f8f8f2e;
     width: 220px;
 }
 
@@ -208,14 +207,23 @@ figcaption {
     box-shadow: 0;
 }
 
+.decoration{
+    position:relative;
+    height:50px;
+}
+
+
+
 .cards-pict2 {
-    padding: 0px 20px 20px 20px;
+    padding: 0px 30px 15px 30px;
 }
 
 figcaption {
     padding: 20px;
     color: grey;
     text-align: center;
+    font-size: 0.9em;
+    line-height: 20px;
 }
 
 .boxcard1 {
@@ -223,18 +231,20 @@ figcaption {
     justify-content: space-evenly;
     align-items: stretch;
     flex-wrap: wrap;
+    width:800px
 }
 
 .boxcard2 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
 }
 
 *.card2 h3 {
     color: #494949;
-    font-size: 1.1em;
+    font-size: 1em;
+    margin-bottom: 20px;
 }
 
 .chefsection {
@@ -292,7 +302,7 @@ figcaption {
 }
 
 .transiction img {
-    width: 460px;
+    width: 430px;
     margin-right: -4px;
 }
 
@@ -313,7 +323,7 @@ figcaption {
 .lastsection h2 {
     color: #14183e;
     width: 365px;
-    font-size: 3em;
+    font-size: 2.9em;
     font-family: "volkhov";
 }
 
