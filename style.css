@@ -207,7 +207,6 @@ figcaption {
     width: 199px;
     margin-top: 100px;
     box-shadow: 0;
-    position: relative;
 }
 
 .carre{
@@ -215,40 +214,21 @@ figcaption {
     height: 50px;
 }
 
-.redbox, .redbox2, .redbox3, .redbox4{
+.redbox{
     position: absolute;
     height: 50px;
     width: 50px;
     transform: rotate(-45deg);
     z-index: 0;
+    bottom:-15px;
+    left:-20px;
     opacity: 0;
 }
 
-.redbox{
-    right:740px;
-    bottom:-677px;
-
-}
-
-.redbox2{
-    right:540px;
-    bottom:-677px;
-
-}
-
-.redbox3{
-    right: 340px;
-    bottom:-677px;
-
-}
-
-.redbox4{
-    right:940px;
-    bottom:-677px;
-
-}
-
-.card2:hover{
+.card2:hover .redbox{
+    opacity: 1;
+    transform: rotate(1deg);
+    transition: 0.8s;
 
 }
 
@@ -269,6 +249,7 @@ figcaption {
 
 .card2 figure{
     border-radius: 20px;
+    position:relative;
 }
 
 
