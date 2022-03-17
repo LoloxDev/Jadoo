@@ -10,14 +10,20 @@ img {
     height:100%;
 }
 
+header{
+    
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 200;
+}
+
 nav {
     display: grid;
-    grid-template-columns: 10% 50px 10% 30% 110px 100px 100px 120px auto;
+    grid-template-columns: 10% 50px 100px 30% 110px 100px 100px 120px auto;
     grid-template-areas: ". logo logo2 . nouv dec comm cont .";
     grid-template-rows: 50px;
     font-family: "poppins";
-    position: sticky;
-    top: 0;
 }
 
 #logo {
@@ -235,13 +241,12 @@ figcaption {
     bottom:-15px;
     left:-20px;
     opacity: 0;
+    transition: 0.5s;
 }
 
 .card2:hover .redbox{
     opacity: 1;
     transform: rotate(1deg);
-    transition: 0.8s;
-
 }
 
 .boxcard2 article{
@@ -574,6 +579,9 @@ ul{
 .footer1 p{
     margin-top: 25px;
     line-height: 20px;
+    font-size: 1em;
+    margin-right: unset;
+    color:#5e6282;
 }
 
 .footer1 img{
@@ -630,6 +638,13 @@ margin-right: 15px;
     border:none;
     height:30px;
     min-width: 110px;
+    cursor:pointer;
+    
+}
+
+.footer3 button:hover{
+    transform:scale(1.1);
+    transition:0.3s;
 }
 
 .footer3 button span{
@@ -644,4 +659,10 @@ margin-right: 15px;
     width: 13px;
     height:20px;
     margin-right: 5px;
+}
+
+.droits{
+    width: 100%;
+    text-align: center;
+    margin-top: 51px;
 }
