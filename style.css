@@ -10,8 +10,11 @@ img {
     height:100%;
 }
 
+#logo{
+    width:98%;
+}
+
 header{
-    
     position: sticky;
     top: 0;
     background-color: white;
@@ -24,6 +27,16 @@ nav {
     grid-template-areas: ". logo logo2 . nouv dec comm cont .";
     grid-template-rows: 50px;
     font-family: "poppins";
+}
+
+.burger{
+    object-fit: unset;
+    width:unset;
+    height:unset;
+    margin:auto;
+    grid-area: burger;
+    display:none;
+
 }
 
 #logo {
