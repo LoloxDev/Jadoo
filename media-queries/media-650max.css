@@ -1,0 +1,17 @@
+.welcome h1{
+    font-size: 2.5em;
+}
+
+.welcome{
+    text-align: center;
+    padding:10%;
+}
+
+.traitorange{
+    background-size: 60%;
+    background-position: 70% 80%;
+}
+
+.welcome p{
+    margin-right: unset;
+}

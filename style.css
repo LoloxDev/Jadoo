@@ -95,7 +95,6 @@ nav a {
     background-image: url(images/illustration_principale.jpg);
     background-size: cover;
     width: 100%;
-    height: 650px;
     object-fit: cover;
     padding: 100px;
 }
