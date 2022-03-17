@@ -152,9 +152,9 @@ p {
 
 .new {
     padding: 100px 10%;
-    background: url("images/decor_1.svg") no-repeat, url("images/decoration_filet.svg") no-repeat;
-    background-position-x:98%, 84%;
-    background-position-y:2%, 32%;
+    background: url("images/decor_1.svg") no-repeat;
+    background-position-x:98%;
+    background-position-y:2%;
     text-align: center;
 }
 
@@ -197,6 +197,18 @@ figcaption {
     box-shadow: 0 10px 35px 1px #8f8f8f2e;
     width: 220px;
     background-color: white;
+    z-index: 1;
+}
+
+.boxcard1 img:last-child{
+    position: absolute;
+    z-index: 0;
+    right: 12px;
+    width: 107px;
+    height: 231px;
+    top: 73px;
+    position:absolute;
+
 }
 
 .titlerelou {
@@ -273,6 +285,7 @@ figcaption {
     flex-wrap: wrap;
     width:800px;
     margin: auto;
+    position:relative;
 }
 
 .boxcard2 {
