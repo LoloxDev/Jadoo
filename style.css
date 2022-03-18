@@ -141,6 +141,10 @@ p {
     line-height: 40px;
 }
 
+.imgresponsive{
+    display: none;
+}
+
 .button {
     background-color: #f1a501;
     padding: 15px 20px;
@@ -149,11 +153,11 @@ p {
     border-style: none;
     margin-top: 50px;
     cursor: pointer;
+    transition: 0.2s;
 }
 
 .button:hover {
     
-    transition: 0.2s;
     transform: scale(1.10);
 }
 
@@ -345,6 +349,16 @@ figcaption {
 .video {
     border-radius: 20px;
     width: 250px;
+    position:relative;
+}
+
+.video a{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    display: block;
+    top: 40px;
+    left: 105px;
 }
 
 .video img {
@@ -352,17 +366,14 @@ figcaption {
 }
 
 .video > a > img {
-    width: 70px;
     background-color: white;
     border-radius: 50px;
-    position: relative;
-    bottom: 105px;
-    left: 90px;
+    transition: 0.5s;
 }
 
 .video > a > img:hover {
-    transform: scale(1.25);
-    transition: 0.5s;
+    transform: scale(1.10);
+    
 }
 
 .chefsection h1 {
@@ -546,6 +557,7 @@ input:focus{
     background-color: #007aff;
     color:white;
     border-radius: 5px;
+    transition:0.2s;
 }
 
 .sendbutton img{
@@ -560,11 +572,11 @@ input:focus{
     position: center;
     box-shadow: 0px 20px 35px 0.1px silver;
     cursor: pointer;
+    transition:0.2s;
 }
 
 .contactbutton:hover{
     transform: scale(1.10);
-    transition:0.2s;
 }
 
 footer{
@@ -660,12 +672,13 @@ margin-right: 15px;
     height:30px;
     min-width: 110px;
     cursor:pointer;
+    transition:0.3s;
     
 }
 
 .footer3 button:hover{
     transform:scale(1.1);
-    transition:0.3s;
+    
 }
 
 .footer3 button span{

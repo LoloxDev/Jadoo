@@ -15,3 +15,39 @@
 .welcome p{
     margin-right: unset;
 }
+
+.boxcard {
+    flex-direction: column;
+}
+
+.card1 {
+    margin-bottom: 30px;
+    margin-right: unset;
+    position: absolute;
+}
+
+.new{
+    background: unset;
+}
+
+.boxcard1 img:last-child{
+    display:none;
+}
+
+.chefsection h1, .chefsection p{
+    display:none;
+}
+
+.imgresponsive{
+    display: block;
+    width:100%;
+}
+
+.chefsection{
+    background: none;
+    padding:unset;
+}
+
+.video{
+    width:unset;
+}

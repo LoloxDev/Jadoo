@@ -14,3 +14,7 @@ nav{
 .burger{
     display:block;
 }
+
+.boxcard1{
+    justify-content: space-around;
+}
