@@ -1,0 +1,33 @@
+.partied{
+    display: none;
+}
+
+.partieg{
+    width:100%;
+    padding:0;
+}
+
+.formulaire{
+    border-radius: unset;
+    box-shadow: unset;
+}
+
+.partieg h3,
+.partieg h4{
+    text-align: center !important;
+}
+
+
+.lastsection figure figcaption h3,
+.lastsection figure figcaption p
+{
+    width:150px;
+}
+
+.lastsection h2{
+    font-size: 2.2em;
+}
+
+.lastsection button{
+    margin-top:60px;
+}

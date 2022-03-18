@@ -18,3 +18,27 @@ nav{
 .boxcard1{
     justify-content: space-around;
 }
+
+.formulairesection{
+    padding: 100px 5%;
+}
+
+.contactbutton{
+    margin-top: 10%;
+}
+
+.transiction{
+    bottom:-200px;
+}
+
+.transiction img{
+    width:300px;
+}
+
+.chefsection{
+    padding-bottom:300px ;
+}
+
+.lastsection{
+    padding: 250px 10% 100px;
+}
