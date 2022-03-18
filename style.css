@@ -216,12 +216,13 @@ figcaption {
     width: 220px;
     background-color: white;
     z-index: 1;
+    margin-right: 30px;
 }
 
 .boxcard1 img:last-child{
     position: absolute;
     z-index: 0;
-    right: 12px;
+    right: -30px;
     width: 107px;
     height: 231px;
     top: 73px;
@@ -266,9 +267,18 @@ figcaption {
     z-index: 1;
 }
 
+.absolute{
+    position:relative;
+}
+
+.card1:nth-child(3){
+    position:relative;
+}
+
 .new figure{
     background-color: white;
     z-index: 1;
+    border-radius: 20px;
 }
 
 .decoration{
@@ -297,10 +307,9 @@ figcaption {
 
 .boxcard1 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: stretch;
     flex-wrap: wrap;
-    width:800px;
     margin: auto;
     position:relative;
 }
