@@ -41,3 +41,62 @@
 .nomprenom{
     flex-wrap: wrap;
 }
+
+.card2 figure{
+    display: flex;
+}
+
+.boxcard2 img{
+    width:100px;
+}
+
+.cards-pict2{
+    padding:0;
+}
+
+.boxcard1{
+    overflow: hidden;
+}
+
+.boxcard2{
+    justify-content: unset;
+}
+
+.card2 figcaption{
+    text-align: left;
+    width:100%;
+    padding: 20px 0 0 20px;
+}
+
+.boxcard2{
+    display:block;
+}
+
+.card2:hover{
+
+    box-shadow: unset;
+}
+
+.card2{
+    width:100%;
+}
+
+.card2:last-child h3{
+    margin-bottom: 0;
+}
+
+.redbox{
+    display: none;
+}
+
+.card2{
+    margin-top: 20px;
+}
+
+.card2:first-child{
+    margin-top: 70px;
+}
+
+.new{
+    padding: 70px 5%;
+}

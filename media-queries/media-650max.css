@@ -30,6 +30,10 @@
     background: unset;
 }
 
+.boxcard1 article{
+    opacity:0;
+}
+
 .boxcard1 img:last-child{
     display:none;
 }
@@ -92,4 +96,102 @@ footer div{
 
 .formulairesection{
     padding: 5%;
+}
+
+@keyframes defilement1 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    2.25% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    33% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    35.25% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes defilement2 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    35.25% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    37.5% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    66% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    68.25% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes defilement3 {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    68.25% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    70.5% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    97.75% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+.card1:first-child{
+    animation: defilement1 20s linear infinite;
+}
+
+.card1:nth-child(2){
+    animation: defilement2 20s linear infinite;
+}
+
+.card1:last-child{
+    animation: defilement3 20s linear infinite;
 }
