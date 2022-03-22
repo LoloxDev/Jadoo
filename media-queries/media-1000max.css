@@ -6,8 +6,8 @@ nav a:nth-child(6){
 }
 
 nav{
-    grid-template-columns: 2% 50px 100px auto 50px ;
-    grid-template-areas: ". logo logo2 .  burger";
+    grid-template-columns: 2% 50px 100px auto 50px;
+    grid-template-areas: ". logo logo2 . burger";
     grid-template-rows: 50px;
 }
 

@@ -195,3 +195,34 @@ footer div{
 .card1:last-child{
     animation: defilement3 20s linear infinite;
 }
+
+
+.partied{
+    display: none;
+}
+
+.partieg{
+    width:100%;
+    padding:0;
+}
+
+.formulaire{
+    border-radius: unset;
+    box-shadow: unset;
+}
+
+.partieg h3,
+.partieg h4{
+    text-align: center !important;
+}
+
+
+.nom,
+.prenom{
+    width:100%;
+    margin-right: 0;
+}
+
+.nomprenom{
+    flex-wrap: wrap;
+}

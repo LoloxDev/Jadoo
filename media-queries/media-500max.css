@@ -1,22 +1,3 @@
-.partied{
-    display: none;
-}
-
-.partieg{
-    width:100%;
-    padding:0;
-}
-
-.formulaire{
-    border-radius: unset;
-    box-shadow: unset;
-}
-
-.partieg h3,
-.partieg h4{
-    text-align: center !important;
-}
-
 
 .lastsection figure figcaption h3,
 .lastsection figure figcaption p
@@ -30,16 +11,6 @@
 
 .lastsection button{
     margin-top:60px;
-}
-
-.nom,
-.prenom{
-    width:100%;
-    margin-right: 0;
-}
-
-.nomprenom{
-    flex-wrap: wrap;
 }
 
 .card2 figure{
