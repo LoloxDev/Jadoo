@@ -104,7 +104,7 @@ footer div{
         transform: translateX(50%);
     }
 
-    2.25% {
+    2% {
         opacity: 1;
         transform: translateX(0);
     }
@@ -114,7 +114,7 @@ footer div{
         transform: translateX(0);
     }
 
-    35.25% {
+    35% {
         opacity: 0;
         transform: translateX(-50%);
     }
@@ -131,12 +131,12 @@ footer div{
         transform: translateX(50%);
     }
 
-    35.25% {
+    35% {
         opacity: 0;
         transform: translateX(50%);
     }
 
-    37.5% {
+    37% {
         opacity: 1;
         transform: translateX(0);
     }
@@ -146,7 +146,7 @@ footer div{
         transform: translateX(0);
     }
 
-    68.25% {
+    68% {
         opacity: 0;
         transform: translateX(-50%);
     }
@@ -163,17 +163,17 @@ footer div{
         transform: translateX(50%);
     }
 
-    68.25% {
+    68% {
         opacity: 0;
         transform: translateX(50%);
     }
 
-    70.5% {
+    70% {
         opacity: 1;
         transform: translateX(0);
     }
 
-    97.75% {
+    98% {
         opacity: 1;
         transform: translateX(0);
     }
